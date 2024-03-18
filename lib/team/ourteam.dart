@@ -17,7 +17,8 @@ class _ourTeamState extends State<ourTeam> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color.fromARGB(255, 32, 72, 149),
+      // backgroundColor: const Color.fromARGB(255, 32, 72, 149),
+      backgroundColor: const Color.fromARGB(255, 152, 181, 241),
 
       appBar: PreferredSize(
         preferredSize: const Size.fromHeight(50),
@@ -106,13 +107,14 @@ class _ourTeamState extends State<ourTeam> {
           ),
 
           Container(
+
             height: 512,
             width: 322,
-            padding: const EdgeInsets.all(12.0),
-            decoration: BoxDecoration(
-              borderRadius: BorderRadius.circular(100.0),
-              color: const Color.fromARGB(255, 32, 72, 149),
-            ),
+            // padding: const EdgeInsets.all(12.0),
+            // decoration: BoxDecoration(
+            //   borderRadius: BorderRadius.circular(100.0),
+            //   color: const Color.fromARGB(255, 32, 72, 149),
+            // ),
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
@@ -188,7 +190,7 @@ class _ourTeamState extends State<ourTeam> {
                 ClipRRect(
                   borderRadius: BorderRadius.circular(20),
                   child: Image.asset(
-                    'images/Touhidsir.jpg',
+                    'images/imransir.jpg',
                     width: 300,
                     height: 400,
                     fit: BoxFit.cover,
@@ -196,21 +198,21 @@ class _ourTeamState extends State<ourTeam> {
                 ),
 
                 const Text(
-                  "Professor Dr. Touhid Bhuiyan",
+                  "Dr. Imran Mahmud",
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     color: Colors.white,
                     fontSize: 20,
-                    fontFamily: "Allerta",
+                    fontFamily: "Allerta",// Adjust the font size as needed
                   ),
                 ),
                 const Text(
-                  "Professor",
+                  "Associate Professor and Head",
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     color: Colors.white,
                     fontSize: 10,
-                    fontFamily: "Allerta",
+                    fontFamily: "Allerta",// Adjust the font size as needed
                   ),
                 ),
               ],
@@ -250,7 +252,7 @@ class _ourTeamState extends State<ourTeam> {
                 ),
 
                 const Text(
-                  "Dr. Imran Mahmud",
+                  "Dr. Md. Fazla Elahe",
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     color: Colors.white,
@@ -259,7 +261,7 @@ class _ourTeamState extends State<ourTeam> {
                   ),
                 ),
                 const Text(
-                  "Associate Professor and Head",
+                  "Assistant Professor & Associate Head",
                   textAlign: TextAlign.center,
                   style: TextStyle(
                     color: Colors.white,
