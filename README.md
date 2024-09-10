@@ -4,6 +4,7 @@ A complete project of DIU Data Science Lab.This app is mainly developed to maint
 # Technology: Dart | Flutter | Firebase
 
 # Snaps of the app
+https://www.figma.com/design/VvI4KBE1sez5mMB2ZhBOcR/DS-Lab-App?node-id=0-1&t=3y0TLrZodv3SIOiD-1
 
 ![Login8](https://github.com/rijwan-uddin/DSLAB-V1/assets/96045123/7e7117bb-dd61-44aa-997d-d307091a3524)
 
